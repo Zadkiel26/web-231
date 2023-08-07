@@ -1,2 +1,3 @@
-# web-231
-WEB231-323M Enterprise Javascript I class
+# WEB 231 Enterprise JavaScript I
+## * Robert Kumar
+## * Zadkiel Rodriguez
