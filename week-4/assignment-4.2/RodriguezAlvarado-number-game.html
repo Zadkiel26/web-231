@@ -6,7 +6,7 @@
     <title>WEB 231 - Enterprise JavaScript I</title>
 
     <!-- Link files and fonts -->
-    <link rel="stylesheet" href="RodriguezAlvarado-temp-conversion.css">
+    <link rel="stylesheet" href="RodriguezAlvarado-number-game.css">
     <link rel="stylesheet" href="/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,25 +15,25 @@
 </head>
 <body>
 
-    <h1 class="app-header">Welcome to the Temperature Conversion App!</h1>
+    <h1 class="app-header">Welcome to the numbers game!</h1>
 
     <div class="card">
-        <p class="card-title">Fahrenheit to Celsius Converter</p>
+        <p class="card-title">Pick a number between 1 to 10</p>
         <form>
-            <label for="fahrenheitValue">Fahrenheit value:</label>
-            <input type="text" id="txtFahrenheit"><br>
-            <input type="button" value="Convert Temperature" id="btn-ConvertTemperature">
+            <label for="guess-number-value">Guess the number:</label>
+            <input type="text" id="txtMyNumber">
+            <input type="button" value="Submit" id="btnSubmit">
         </form>
     </div>
 
     <div class="card">
-        <p class="card-title">Conversion Results</p>
-        <p id="conversion-result"></p>
+        <p class="card-title">Results</p>
+        <p id="number-result"></p>
     </div>
-    
-    <a href="/index.html" class="return-home">Return</a>
 
-    <script src="RodriguezAlvarado-temp-conversion.js"></script>
+    <a href="/index.html" class="return-home">Return</a>
+    
+    <script src="RodriguezAlvarado-number-game.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.card 
+{
+    margin-bottom: 40px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.card-title {
+    color: #3C275A;
+    font-size: 28px;
+    text-align: center;
+}
+
+#txtMyNumber {
+    padding: 10px;
+}
+
+form {
+    margin-left: 30px;
+}
+
+#btnSubmit {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 280px;
+    background-color: #3C275A;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+#number-result {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
