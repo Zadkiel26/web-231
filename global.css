@@ -1,13 +1,23 @@
-return-home {
+.return-home {
     color: #4F3674;
     text-decoration: none;
 }
 
-return-home:hover {
+.return-home:hover {
     background-color: #D6A800;
     color: #4F3674;
 }
 
-return-home:visited {
+.return-home:visited {
     color: #3C275A;
+}
+
+.drop-down-menu {
+    padding: 10px;
+    border-radius: 4px;
+    width: 175px;
+}
+
+.drop-down-menu:hover {
+    cursor: pointer;
 }
