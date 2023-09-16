@@ -1,0 +1,82 @@
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.card-title {
+    color: #4f3674;
+    font-size: 28px;
+    text-align: center;
+}
+
+form {
+    margin-left: 15%;
+}
+
+#btnDisplayListing {
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    width: 270px;
+    font-size: 15px;
+    background-color: #4f3674;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+#btnDisplayListing:hover {
+    cursor: pointer;
+    background-color: #d6a800;
+    color: #4f3674;
+}
+
+.return-home {
+    margin-left: 34.2%;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+    text-indent: 5px;
+    border-collapse: collapse;
+}
+
+.table-title {
+    display: none;
+}
+
+.table-titles {
+    background-color: #4f3674;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.table-border {
+    border: 1px solid #ddd;
+}
+
+.table-content {
+    height: 35px;
+}
+
+.table-content:hover {
+    background-color: #d6a800;
+    color: #3c275a;
+    cursor: default;
+}
