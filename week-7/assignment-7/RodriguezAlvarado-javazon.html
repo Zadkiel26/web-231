@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="RodriguezAlvarado-javazon.css">
+    <link rel="stylesheet" href="/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700" rel="stylesheet" />
+
+    <title>WEB 231 - Enterprise JavaScript I</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1 class="app-header">
+            Welcome to the Javazon App!
+        </h1>
+
+        <div class="card">
+            <p class="card-title">
+                Javazon Selection Form
+            </p>
+
+            <form>
+                <label for="choose-listing">
+                    Choose a listing
+                </label>
+                <select id="listing" class="drop-down-menu">
+                    <option value="select" disabled selected hidden>
+                        --Select--
+                    </option>
+                    <option value="products">
+                        Products
+                    </option>
+                    <option value="services">
+                        Services
+                    </option>
+                    <option value="employees">
+                        Employees
+                    </option>
+                </select>
+            </form>
+
+            <button id="btnDisplayListing">
+                Display Listing
+            </button>
+        </div>
+    </div>    
+
+        <a href="/index.html" class="return-home">
+            Return
+        </a>
+
+    <div class="wrapper">    
+        <div class="card">
+            <div class="products">
+                <p class="card-title table-title">
+                    Javazon Products
+                </p>
+                <table id="productsTable" class="table">
+                    <thead>
+                        <tr>
+                            <th class="table-titles table-border">Product ID</th>
+                            <th class="table-titles table-border">Description</th>
+                            <th class="table-titles table-border">Price</th>
+                            <th class="table-titles table-border">Quantity</th>
+                            <th class="table-titles table-border">Total Value</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="services">
+                <p class="card-title table-title">
+                    Javazon Services
+                </p>
+                <table id="servicesTable" class="table">
+                    <thead>
+                        <tr>
+                            <th class="table-titles table-border">Service ID</th>
+                            <th class="table-titles table-border">Description</th>
+                            <th class="table-titles table-border">Hourly Rate</th>
+                            <th class="table-titles table-border">Minimum Billable hours</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="employees">
+                <p class="card-title table-title">
+                    Javazon Employees
+                </p>
+                <table id="employeesTable" class="table">
+                    <thead>
+                        <tr>
+                            <th class="table-titles table-border">Employee ID</th>
+                            <th class="table-titles table-border">Last Name</th>
+                            <th class="table-titles table-border">First Name</th>
+                            <th class="table-titles table-border">Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="RodriguezAlvarado-javazon.js"></script>
+</body>
+</html>
