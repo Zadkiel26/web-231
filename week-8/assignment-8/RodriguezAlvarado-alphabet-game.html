@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="RodriguezAlvarado-alphabet-game.css">
+    <link rel="stylesheet" href="/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700" rel="stylesheet" />
+
+    <title>WEB 231 - Enterprise JavaScript I</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1 class="app-header">
+            Welcome to the Alphabet Game!
+        </h1>
+
+        <div class="card">
+            <p class="card-title">
+                Alphabet Number Form
+            </p>
+
+            <form>
+                <label for="alphabet-letter-position">
+                    Alphabet Letter Position
+                </label>
+                <input type="text" id="txtPosition">
+            </form>
+
+            <button id="btnFindLetter">
+                Find Letter
+            </button>
+        </div>
+    </div>
+
+    <a href="/index.html" class="return-home">
+        Return
+    </a>
+
+    <div class="wrapper">
+        <div class="card">
+            <p class="card-title">
+                Letters in the Alphabet
+            </p>
+            <div class="card-content">
+                
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                Results
+            </div>
+            <p id="resultText"></p>
+        </div>
+    </div>
+    
+    <script src="RodriguezAlvarado-alphabet-game.js"></script>
+</body>
+</html>
