@@ -1,0 +1,58 @@
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+
+.app-header {
+    padding: 30px;
+}
+
+.card {
+    margin: 40px auto;
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #3c275a;
+    font-size: 28px;
+}
+
+#btnDealCards {
+    padding: 15px;
+    width: 95%;
+    font-size: 15px;
+    background-color: #3c275a;
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btnDealCards:hover {
+    background-color: #d6a800;
+    color: #4f3674;
+}
+
+.return-home {
+    margin-left: 33.7%;
+}
+
+.player-card {
+    text-align: center;
+    height: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#player-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 10px;
+}
